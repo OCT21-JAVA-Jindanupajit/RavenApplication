@@ -14,19 +14,33 @@ public class RavenApplication implements Runnable{
 
         Person you = new Person ("Dave Wolf");
         Robot raven = new Robot("Raven");
-        Robot eliza = new Robot("Eliza");
+        EmotionEvaluator eliza = new EmotionEvaluator("Eliza");
         Logger alice = new Logger("Alice");
 
         you.listenTo(eliza);
         you.listenTo(raven);
-        raven.listenTo(you);
-        eliza.listenTo(raven);
+        you.listenTo(alice);
+
+        alice.talk("Hello, I am from billing department");
+        alice.talk("I will count every line raven speak, and bill you");
+
+        // eliza is an emotional therapist robot.
         eliza.listenTo(you);
 
+        // alice is a robot from billing department, and will count raven conversation
         alice.listenTo(raven);
 
+        eliza.talk("Hi!");
 
+        eliza.talk("I will guide raven through this session");
+        eliza.talk(String.format("%s just ignore me from now on!",you));
+        raven.talk("Hello, how are you feeling today?");
 
+        // now, you cannot see any conversation from eliza
+        eliza.getListener().remove(you);
+
+        // raven is a dumb bot, will repeat everything he heard.
+        raven.listenTo(eliza);
 
         Conversation last;
         do {
@@ -36,7 +50,7 @@ public class RavenApplication implements Runnable{
 
         } while(!last.getMessage().equalsIgnoreCase("q"));
 
-        you.listenTo(alice);
+
         alice.talk("Hi!");
         Invoice invoice = new Invoice(100f,.35f);
         invoice.setCustomer(you);

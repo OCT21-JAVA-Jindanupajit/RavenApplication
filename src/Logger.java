@@ -10,6 +10,11 @@ public class Logger extends Robot {
     }
 
     @Override
+    public String autoResponse(Conversation conversation) {
+        return null;
+    }
+
+    @Override
     public String autoGoodbye(Conversation conversation) {
         return null;
     }

@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86f06725-bfff-45e9-88fa-70d824dc9a24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutoResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chatable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Question.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmotionEvaluator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RavenApplication/AutoResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RavenApplication/AutoResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RavenApplication/Chatable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RavenApplication/Chatable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RavenApplication/Conversation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RavenApplication/Conversation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RavenApplication/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RavenApplication/Invoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RavenApplication/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RavenApplication/Logger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RavenApplication/MessageQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RavenApplication/MessageQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RavenApplication/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RavenApplication/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RavenApplication/RavenApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RavenApplication/RavenApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conversation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conversation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MessageQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Raven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RavenApplication/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RavenApplication/Robot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RavenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RavenApplication.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

@@ -15,7 +15,8 @@ public interface AutoResponse {
     }
 
     default String defaultResponse(Conversation conversation) {
-        return String.format("I heard %s said \"%s\"", conversation.getChatable(), conversation.getMessage());
+        return conversation.getMessage();
+        //return String.format("I heard %s said \"%s\"", conversation.getChatable(), conversation.getMessage());
     }
 
 }
