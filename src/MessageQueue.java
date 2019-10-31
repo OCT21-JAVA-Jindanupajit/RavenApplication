@@ -7,8 +7,8 @@ public class MessageQueue extends ArrayList<Conversation> {
         this.add(conversation);
         return conversation.toString();
     }
-    public String append(String name, String message) {
-        Conversation conversation = new Conversation(name,message);
+    public String append(Person person, String message) {
+        Conversation conversation = new Conversation(person,message);
         return this.append(conversation);
 
     }

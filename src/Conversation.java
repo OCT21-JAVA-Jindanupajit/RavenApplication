@@ -1,33 +1,32 @@
-import java.util.Scanner;
+import java.io.PrintStream;
 
 public class Conversation {
-    private String person;
+    private Chatable chatable;
     private String message;
 
-    public Conversation(String person) {
-        this.person = person;
+    public Conversation(Chatable chatable) {
+        this.chatable = chatable;
         this.message = "";
     }
 
-    public Conversation(String person, String message) {
-        this.person = person;
+    public Conversation(Chatable chatable, String message) {
+        this.chatable = chatable;
         this.message = message;
     }
 
-    public Conversation getConversation() {
-        Scanner kb = new Scanner(System.in);
-
-        System.out.printf("%s : ", this.person);
-        this.message = kb.nextLine().trim();
+    public Conversation echo(PrintStream printStream) {
+        if (printStream != null)
+        printStream.println(this);
         return this;
     }
 
     @Override
     public String toString() {
-        return String.format("<%s> %s", this.person, this.message);
+        return String.format("<%s> %s", this.chatable, this.message);
     }
-    public String getPerson() {
-        return person;
+
+    public Chatable getChatable() {
+        return chatable;
     }
 
     public String getMessage() {

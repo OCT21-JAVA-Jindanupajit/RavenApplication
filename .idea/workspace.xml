@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86f06725-bfff-45e9-88fa-70d824dc9a24" name="Default Changelist" comment="" />
+    <list default="true" id="86f06725-bfff-45e9-88fa-70d824dc9a24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AutoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RavenApplication/Conversation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RavenApplication/Conversation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RavenApplication/MessageQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RavenApplication/MessageQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RavenApplication/RavenApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RavenApplication/RavenApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Conversation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conversation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MessageQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Raven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RavenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RavenApplication.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,12 +30,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SwCmwTV6yHcJU8Os82ZdyuM5TM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -57,10 +85,28 @@
       <option name="presentableId" value="Default" />
       <updated>1572465434104</updated>
       <workItem from="1572465438716" duration="2289000" />
+      <workItem from="1572482074077" duration="77000" />
+      <workItem from="1572482351504" duration="17553000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
